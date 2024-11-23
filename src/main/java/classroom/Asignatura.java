@@ -16,7 +16,7 @@ public class Asignatura {
     }
 
     public Asignatura(int codigoInterno,Tipo tipo) {
-        this.nombre="sin nombre";
+        this.nombre="Sin nombre";
         this.codigoInterno=codigoInterno;
         this.tipo=tipo;
         this.codigoExterno=codigoInterno;
