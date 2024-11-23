@@ -26,7 +26,11 @@ public class Asignatura {
     
 
     public Asignatura(String nombre, Tipo tipo) {
-        this(nombre, 0, 0,tipo);
+        this.nombre=nombre;
+        this.tipo=tipo;
+        this.codigoExterno=0;
+        this.codigoInterno=0;
+            
     }
 
     public Asignatura(String nombre, int codigoInterno, int codigoExterno,Tipo tipo) {
